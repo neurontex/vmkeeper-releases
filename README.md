@@ -16,7 +16,7 @@ PowerShell:
 
 ```powershell
 Get-AuthenticodeSignature .\VMKeeper-Setup-1.0.10.exe | Format-List Status, SignerCertificate
-Get-FileHash .\VMKeeper-Setup-1.0.0.exe -Algorithm SHA256
+Get-FileHash .\VMKeeper-Setup-1.0.10.exe -Algorithm SHA256
 ```
 
 Compare the hash with `SHA256SUMS.txt` attached to the release.
