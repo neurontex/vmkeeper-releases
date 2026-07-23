@@ -16,7 +16,7 @@ Every installer is Authenticode-signed by **SIA VSM (Riga, LV)**.
 PowerShell:
 
 ```powershell
-Get-AuthenticodeSignature .\VMKeeper-Setup-1.0.0.exe | Format-List Status, SignerCertificate
+Get-AuthenticodeSignature .\VMKeeper-Setup-1.0.10.exe | Format-List Status, SignerCertificate
 Get-FileHash .\VMKeeper-Setup-1.0.0.exe -Algorithm SHA256
 ```
 
