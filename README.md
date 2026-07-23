@@ -3,7 +3,6 @@
 Official release mirror for **VMKeeper**, backup and recovery for standalone VMware ESXi hosts (including free ESXi, no vCenter required).
 
 - Product page, documentation and 30-day trial: **https://neurontex.eu/vmkeeper**
-- Русская версия: https://neurontex.eu/ru/vmkeeper
 
 ## Downloads
 
